@@ -1,6 +1,8 @@
 const turnOn = document.getElementById ("turnOn");
 const turnOff = document.getElementById ("turnOff");
 const lamp = document.getElementById ("lamp");
+const aviso = document.getElementById ("aviso");
+
 
 function islampbroken () {
     return lamp.src.indexOf ("quebrada") > -1
@@ -17,6 +19,7 @@ function lampOff () {
 }
 function lampbroken () {
     lamp.src = "./Img/quebrada.jpg";
+    aviso.src = "./Img/Avisado.jpg";
 }
 turnOn.addEventListener ("click", lampOn);
 turnOff.addEventListener ("click", lampOff);
