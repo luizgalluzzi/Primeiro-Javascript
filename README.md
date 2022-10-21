@@ -1,5 +1,5 @@
 # Projeto Lâmpada
-  Quarto projeto proposto pela mentoria "conquiste sua vaga".
+  Quinto projeto proposto pela mentoria "conquiste sua vaga".
 
 ## Inspiração do Projeto:
   Mostrar, de forma prática, para leigos no assunto (no caso, minha esposa), a função do JS.
