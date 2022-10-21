@@ -4,6 +4,10 @@ header, main {
     align-items: center;
 }
 
+#aviso {
+    margin-top: 30px;
+}
 button{
+    margin-top: 10px;
     width: 80px;
 }
